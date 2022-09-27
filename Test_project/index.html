@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script type="text/javascript" src="./index.js"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+
+
+</head>
+<body>
+    <div id="Form_div">
+        <form action="./Questions.html">
+            <h1>Student Registration Form</h1>
+            <hr/><br>
+
+            <h3><span>▶</span> Name of Student<span class="required_field">*</span></h3>
+            <div class="Inner_div">
+                <input type="text" id="Student_FName" name="Student_FName" size="40" required>
+                <label for="Student_FName">First Name</label>
+            </div>
+            <div class="Inner_div">
+                <input type="text" id="Student_LName" name="Student_LName" size="40" required>
+                <label for="Student_LName">Last Name</label>
+            </div>
+
+            <h3><span>▶</span> Name of Parent<span class="required_field">*</span></h3>
+            <div class="Inner_div">
+                <input type="text" id="Parent_FName" name="Parent_FName" size="40" required>
+                <label for="Parent_FName">First Name</label>
+            </div>
+            <div class="Inner_div">
+                <input type="text" id="Parent_LName" name="Parent_LName" size="40" required>
+                <label for="Parent_LName">Last Name</label>
+            </div>
+
+            <h3><span>▶</span> Date of Birth<span class="required_field">*</span></h3>
+            <div class="Inner_div">
+                <input type="date" id="DOB" name="DOB" required>
+                <!-- <label for="DOB">Date</label> -->
+            </div>
+
+            <h3><span>▶</span> Gender<span class="required_field">*</span></h3>
+            <div class="Inner_div">
+                <select id="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <h3><span>▶</span> Select Branch<span class="required_field">*</span></h3>
+            <div class="Inner_div">
+                <select id="Course">
+                    <option value="CSE">CSE</option>
+                    <option value="Mechanical">Mechanical</option>
+                    <option value="Electrical">Electrical</option>
+                </select>
+            </div>
+
+            <h3><span>▶</span> Email<span class="required_field">*</span></h3>
+            <div class="Inner_div">
+                <input type="email" id="Email" name="Email" required>
+            </div>
+
+            <h3><span>▶</span> Phone No.<span class="required_field">*</span></h3>
+            <div class="Inner_div">
+                <input type="number" id="Phone" name="Phone" required min="1000000000" max="9999999999">
+            </div>
+            <br>
+
+            <div id="btn_div">
+                <button type="submit" id="Submit_btn" onclick="set_item()">Submit</button>
+                <button type="reset" id="Reset_btn">Reset</button>
+            </div>
+        </form>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script> -->
+
+</body>
+</html>

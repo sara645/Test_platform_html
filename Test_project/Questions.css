@@ -1,0 +1,49 @@
+#header{
+    background-color:#fbdccf;
+    padding:10px 10px;
+    margin-bottom:50px;
+}
+
+#header h1{
+    display: inline-block;
+}
+
+#header span{
+    float: right;
+    font-size:1.6rem;
+    font-weight:bold;
+    margin-top: 6px;
+    margin-right: 150px;
+}
+h1{
+    margin:0px;
+}
+
+#Questions_part{
+    padding:10px 20px;
+    background-color:white;
+    color:rgb(7, 15, 88);
+}
+
+#Options_div{
+    font-size:25px;
+    padding:10px;
+    margin-left: 20px;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color:#32b643;
+    color:white;
+    border: 0px;
+    padding: 10px 20px;
+    font-size:1.2rem ;
+    margin-left:30px;
+}

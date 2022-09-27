@@ -1,0 +1,31 @@
+body {
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, rgb(217, 167, 199), rgb(255, 252, 220));
+    /* font-family:'Quicksand' !important; */
+}
+
+#Form_div{
+    width:40%;
+    margin: auto ;
+    padding:0 120px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(217, 167, 199), rgb(255, 252, 220));
+    box-shadow: 4px 2px 20px 5px #888888;
+    
+
+}
+h2{
+    color:rgb(1, 113, 1);
+}
+#Stu_info{
+    margin: auto;
+}
+
+#Marks_info{
+    margin-left:3vw;
+}
+
+th{
+    float: right;
+}

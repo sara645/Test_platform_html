@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" type="text/css" href="./Questions.css">
+    <script type="text/javascript" src="./Questions.js"></script>
+</head>
+<body onload="next_ques()">
+<!-- <body> -->
+
+    <div id="header">
+        <h1>Multiple Choice Questions</h1>
+        <span id="Timer"></span>
+    </div>
+
+    <div id="Questions_part">
+        <h1>&ensp;&ensp;Question <span id="Q_no"></span></h1>
+        <hr>
+
+        <h2 id="Question"><span style="color:black;font-weight:bold">Q● &nbsp; </span><span id="Questions"></span></h2>
+        
+        <br>
+        <div id="Options_div">
+            <span>A.</span>
+            <input type="radio" id="option1" name="MCQ" value="1">
+            <label for="option1" id="label1">0 - 30</label><br>
+
+            <span>B.</span>
+            <input type="radio" id="option2" name="MCQ" value="2">
+            <label for="option2" id="label2">31 - 60</label><br>  
+
+            <span>C.</span>
+            <input type="radio" id="option3" name="MCQ" value="3">
+            <label for="option3" id="label3">61 - 100</label><br>
+
+            <span>D.</span>
+            <input type="radio" id="option4" name="MCQ" value="4">
+            <label for="option4" id="label4">61 - 100</label>
+        </div>
+
+        <br>
+        <!-- <p id="corr"></p> -->
+        <button type="button" id="submit_btn" onclick="next_ques()">Submit</button>
+        
+
+    </div>
+    <!-- <p id="Info"></p> -->
+</body>
+</html>
